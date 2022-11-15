@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "07d28f14-852d-428f-9dc7-692280d2e3d8",
+  "appPageId" : "429e0706-9a18-42a2-82a0-8b8d36c416ee",
+  "configurationTags" : [ ],
+  "id" : "415f9058-3d74-4d28-b87d-64af7110454d",
+  "label" : "Topic Catalog",
+  "pageAccess" : "UseParent",
+  "routeType" : "topic-catalog",
+  "type" : "route",
+  "urlPrefix" : "topiccatalog"
+}
