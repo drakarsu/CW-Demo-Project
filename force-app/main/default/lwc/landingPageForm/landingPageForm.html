@@ -1,6 +1,6 @@
 <template>
     <template if:false={isRegistered}>
-        <lightning-card variant="Narrow" title={Title} icon-name="standard:account">
+        <lightning-card class='slds-a-around_medium' variant="Narrow" title={Title} icon-name="standard:account">
 
         <lightning-button-icon onclick={createLeadHandler} icon-name="utility:add" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
 
@@ -22,7 +22,7 @@
 
     <template if:true={isRegistered}>
         <lightning-card variant="Narrow"  title="Registration Completed" icon-name="standard:account">
-            <p class="slds-p-horizontal_small">Your Registration is Completed. One of our specialist contact with you as soon as possible. </p>
+            <p class="slds-p-horizontal_small">Your Registration is Completed. One of our specialist will contact with you. </p>
             <p slot="footer">Success</p>
         </lightning-card>
     </template>
